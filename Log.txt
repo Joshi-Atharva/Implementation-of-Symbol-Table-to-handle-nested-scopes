@@ -1,0 +1,21 @@
+	Operation: begin status: SUCCESS
+	Operation: assign a 3  status: SUCCESS
+	Operation: assign b 4 status: SUCCESS
+	Operation: begin  status: SUCCESS
+	Operation: assign c 43 status: SUCCESS
+	Operation: assign a 99  status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: print a  status: SUCCESS
+	Operation: end status: SUCCESS
+	Operation: print b  status: SUCCESS
+	Operation: print a  status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: assign c 66 status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: begin    status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: assign c 69 status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: end status: SUCCESS
+	Operation: print c  status: SUCCESS
+	Operation: end    status: SUCCESS

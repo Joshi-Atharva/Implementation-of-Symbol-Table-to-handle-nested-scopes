@@ -1,0 +1,112 @@
+after command: begin
+	scope: 1
+after command: assign a 3 
+	scope: 1
+		varName: a		data: 3
+after command: assign b 4
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: begin 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+	scope: 2
+after command: assign c 43
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+	scope: 2
+		varName: c		data: 43
+after command: assign a 99 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+	scope: 2
+		varName: a		data: 99
+		varName: c		data: 43
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+	scope: 2
+		varName: a		data: 99
+		varName: c		data: 43
+after command: print a 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+	scope: 2
+		varName: a		data: 99
+		varName: c		data: 43
+after command: end
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: print b 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: print a 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+after command: assign c 66
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+after command: begin   
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+	scope: 2
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+	scope: 2
+after command: assign c 69
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+	scope: 2
+		varName: c		data: 69
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+	scope: 2
+		varName: c		data: 69
+after command: end
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+after command: print c 
+	scope: 1
+		varName: a		data: 3
+		varName: b		data: 4
+		varName: c		data: 66
+after command: end   

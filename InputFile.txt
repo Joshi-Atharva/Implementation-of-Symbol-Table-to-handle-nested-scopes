@@ -1,0 +1,23 @@
+begin
+    assign a 3 
+    assign b 4
+    begin 
+        assign c 43
+        assign a 99 
+        print c // prints 43
+        print a // prints 99
+    end
+    print b // prints 4
+    print a // prints 3
+    print c // prints 0 (since c is out of scope now)
+
+    // as can be seen, comments and blank lines are ignored as desired
+    assign c 66
+    print c // prints 66
+    begin   
+        print c // prints 66
+        assign c 69
+        print c // prints 69
+    end
+    print c // prints 66
+end   // end of program
