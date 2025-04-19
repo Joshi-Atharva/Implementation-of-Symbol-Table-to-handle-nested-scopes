@@ -8,5 +8,5 @@ Instructions for input:
 		2. "Log.txt" which can be used to find the status of each command executed
 		3. "SymTable.txt" which stores the state of symbol table after every instruction 
 
-Instructions for execution in Linux terminal:
+Instructions for execution in Linux terminal:<br>
 	./MainMake.sh
